@@ -1,0 +1,39 @@
+.pseudoelemento {
+  font-size: 16px;
+  width: 30px;
+}
+.pseudoelemento:before {
+  content: "Hola";
+}
+.clase .pseudoelemento:before {
+  content: "Chao";
+}
+.clase .pseudoelemento img {
+  margin-top: 10px;
+}
+body,
+.textred {
+  color: #f00;
+  background: #ff0;
+  text-decoration: none;
+  margin: 10px 20px;
+  padding: 1em;
+}
+body .primerhijo,
+.textred .primerhijo {
+  margin-top: 24px;
+  font-size: 14px;
+}
+.btn {
+  background: #f00;
+  border-radius: 5px;
+}
+.btn--alert {
+  background: #008000;
+}
+p {
+  font-size: 10px;
+}
+h3 {
+  font-size: 2px;
+}
