@@ -1,0 +1,8 @@
+box(x, y, margin-only = true)
+  if margin-only
+    margin x y
+  else
+    padding:  x y
+
+.div
+  box(5px, 6px, true)
