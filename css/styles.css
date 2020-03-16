@@ -37,3 +37,17 @@ p {
 h3 {
   font-size: 2px;
 }
+img {
+  margin: 0 0 0 10px;
+  padding: 1px 2px 3px 14px;
+}
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
